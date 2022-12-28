@@ -2,7 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
     padding: 10px 80px;
+    position: absolute;
 
 
     #header-logo {
@@ -15,5 +19,7 @@
 
     .header-nav-item {
         color: white;
+        text-transform: uppercase;
+        font-weight: 700;
     }
 }

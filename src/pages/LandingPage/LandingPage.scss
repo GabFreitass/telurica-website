@@ -1,0 +1,28 @@
+.landing-page-main {
+    background-image: url("../../assets/img/banner-landing-page.jpg");
+    background-size: contain;
+    background-repeat: repeat-y;
+
+    height: 100%;
+}
+
+.landing-page-title {
+    color: white;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.landing-page-subtitle {
+    color: white;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.landing-page-text {
+    color: white;
+}
+
+.landind-page-section {
+    margin: 0 50px;
+    height: 100vh;
+}
