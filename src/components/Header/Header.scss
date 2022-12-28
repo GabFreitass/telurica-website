@@ -1,0 +1,19 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+
+
+    #header-logo {
+        height: 80px;
+    }
+
+    .header-nav-item:not(:last-child) {
+        margin: 0 20px;
+    }
+
+    .header-nav-item {
+        color: white;
+    }
+}
